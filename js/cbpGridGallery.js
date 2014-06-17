@@ -113,6 +113,7 @@
 		// window resize
 		window.addEventListener( 'resize', function() { self._resizeHandler(); } );
 
+
 		// keyboard navigation events
 		document.addEventListener( 'keydown', function( ev ) {
 			if ( self.isSlideshowVisible ) {
