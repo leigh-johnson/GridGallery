@@ -26,5 +26,5 @@ $("#showPurple").click(function () {
 
 $("#showYellow").click(function () {
 	$("figure").removeClass('hidden');
-	$("figure.code, figure.art, figure.art, figure.dance").addClass("hidden");
+	$("figure.code, figure.music, figure.art, figure.dance").addClass("hidden");
 })
