@@ -20,5 +20,3 @@ To-do
 [ ] Create new resize event handler or edit to accomodate click events
 [ ] Modify slideshow elements to match filtered selection
 [ ] Add gesture support for slideshow carousel
-
-Demo: http://sandbox.leighjohnson.me/gridgallery/
