@@ -5,7 +5,7 @@ To-do
 * [ ] Modify slideshow elements to match filtered selection
 * [ ] Add gesture support for slideshow carousel
 
-[demo](https://github.com/Nuwen/GridGallery)
+[demo](http://sandbox.leighjohnson.me/gridgallery/)
 
 Original readme text:
 
