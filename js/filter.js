@@ -1,4 +1,5 @@
 
+
 $("#showAll").click(function () {
 	$("figure").removeClass('hidden');
 });

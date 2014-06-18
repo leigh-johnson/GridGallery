@@ -32,7 +32,7 @@
 					<ul class="grid">
 						<li class="grid-sizer"></li><!-- for Masonry column width -->
 						<li>
-							<figure class="art">
+							<figure class="art" onclick="new CBPGridGallery( document.getElementById( 'grid-gallery' ) );">
 								<img src="img/thumb/1.png" alt="img01"/>
 								<figcaption class="red"><h3>Letterpress asymmetrical</h3><p>Chillwave hoodie ea gentrify aute sriracha consequat.</p></figcaption>
 							</figure>
@@ -407,6 +407,7 @@
 				</section><!-- // slideshow -->
 			</div><!-- // grid-gallery -->
 		</div>
+		<script src="js/filter.js"></script>
 		<script src="js/imagesloaded.pkgd.min.js"></script>
 		<script src="js/masonry.pkgd.min.js"></script>
 		<script src="js/classie.js"></script>
@@ -414,6 +415,6 @@
 		<script>
 			new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
 		</script>
-		<script src="js/filter.js"></script>
+
 	</body>
 </html>

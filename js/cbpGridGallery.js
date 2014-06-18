@@ -66,7 +66,8 @@
 		// main grid
 		this.grid = this.el.querySelector( 'section.grid-wrap > ul.grid' );
 		// main grid items
-		this.gridItems = [].slice.call( this.grid.querySelectorAll( 'li:not(.grid-sizer)' ) );
+		this.gridItems = [].slice.call( this.grid.querySelectorAll( 'li:not(.grid-sizer)' ));
+
 		// items total
 		this.itemsCount = this.gridItems.length;
 		// slideshow grid
@@ -93,7 +94,12 @@
 				columnWidth: grid.querySelector( '.grid-sizer' )
 			});
 		});
+
+
 	};
+
+
+
 
 	CBPGridGallery.prototype._initEvents = function() {
 		var self = this;
@@ -112,6 +118,7 @@
 
 		// window resize
 		window.addEventListener( 'resize', function() { self._resizeHandler(); } );
+		document.addEventListener('click', function() { self._resizeHandler(); } );
 
 
 		// keyboard navigation events
